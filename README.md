@@ -1,8 +1,33 @@
-# Welcome to your Expo app 👋
+# Zyntra - Your Holistic Wellness Companion
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+![Zyntra App](./assets/images/icon.png)
 
-## Get started
+## About Zyntra
+
+Zyntra is an AI-powered mobile application designed to help users "get their life together" by providing holistic wellness insights. By unifying data from multiple sources (like Spotify, Instagram, Fitbit, etc.), Zyntra delivers personalized insights, adaptive micro-challenges, and weekly shareable recaps—all while prioritizing privacy and user control.
+
+## Key Features
+
+### 🔢 Unified Life Score
+A comprehensive wellness metric (0-100) that reflects combined insights from your connected data sources.
+
+### 💡 Daily "Aha!" Insight Cards
+Fun, personalized daily insights generated from your activity patterns.
+
+### 🎯 Adaptive Micro-Challenges
+Small, contextual wellness challenges tailored based on your lowest-performing life areas.
+
+### 📊 Weekly "Life Wrapped" Recap
+Shareable meme-style weekly summaries highlighting your activity across all connected platforms.
+
+## Technology Stack
+
+- **Frontend**: React Native with Expo
+- **Navigation**: Expo Router
+- **Styling**: React Native's StyleSheet API
+- **UI Components**: Custom themed components
+
+## Getting Started
 
 1. Install dependencies
 
@@ -16,35 +41,35 @@ This is an [Expo](https://expo.dev) project created with [`create-expo-app`](htt
    npx expo start
    ```
 
-In the output, you'll find options to open the app in a
+3. Scan the QR code with:
+   - **Expo Go** app on iOS/Android
+   - Run on an iOS simulator or Android emulator
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## Application Structure
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+- `app/` - Main screens and navigation setup
+  - `(tabs)/` - Bottom tab navigation screens
+  - Other standalone screens (login, insights, etc.)
+- `components/` - Reusable UI components
+- `assets/` - Images, fonts, and other static resources
+- `constants/` - Theme colors and other application constants
+- `hooks/` - Custom React hooks for shared functionality
 
-## Get a fresh project
+## Privacy & Data
 
-When you're ready, run:
+Zyntra is designed with user privacy as a priority. The app provides:
+- Clear controls for data source connections
+- Transparency in how data is used
+- Options to limit or delete collected information
 
-```bash
-npm run reset-project
-```
+## Development Status
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+This repository contains the front-end code for Zyntra, currently in active development.
 
-## Learn more
+## Contributing
 
-To learn more about developing your project with Expo, look at the following resources:
+Contributions are welcome! Please feel free to submit a Pull Request.
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+---
 
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+For more information, please contact the repository owner.
