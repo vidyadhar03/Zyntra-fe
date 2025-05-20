@@ -38,7 +38,7 @@ export default function HomeScreen() {
       >
         {/* Header Section */}
         <ThemedView style={styles.headerContainer}>
-          <ThemedText style={styles.headerTitle}>Zyntra</ThemedText>
+          <ThemedText style={styles.headerTitle}>Sagey</ThemedText>
           <Image 
             source={require('../../assets/images/adaptive-icon.png')}
             style={styles.headerIcon}

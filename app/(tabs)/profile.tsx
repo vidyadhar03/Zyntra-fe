@@ -86,7 +86,7 @@ export default function ProfileScreen() {
         <ThemedView style={styles.privacyCard}>
           <ThemedText style={styles.sectionTitle}>Privacy Settings</ThemedText>
           <ThemedText style={styles.privacyText}>
-            Manage your data preferences and privacy settings. Control what data Zyntra can access and how it's used.
+            Manage your data preferences and privacy settings. Control what data Sagey can access and how it's used.
           </ThemedText>
           <TouchableOpacity style={styles.privacyButton}>
             <ThemedText style={styles.privacyButtonText}>Privacy Settings</ThemedText>

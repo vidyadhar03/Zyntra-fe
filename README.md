@@ -1,10 +1,10 @@
-# Zyntra - Your Holistic Wellness Companion
+# Sagey - Your Holistic Wellness Companion
 
-![Zyntra App](./assets/images/icon.png)
+![Sagey App](./assets/images/icon.png)
 
-## About Zyntra
+## About Sagey
 
-Zyntra is an AI-powered mobile application designed to help users "get their life together" by providing holistic wellness insights. By unifying data from multiple sources (like Spotify, Instagram, Fitbit, etc.), Zyntra delivers personalized insights, adaptive micro-challenges, and weekly shareable recaps—all while prioritizing privacy and user control.
+Sagey is an AI-powered mobile application designed to help users "get their life together" by providing holistic wellness insights. By unifying data from multiple sources (like Spotify, Instagram, Fitbit, etc.), Sagey delivers personalized insights, adaptive micro-challenges, and weekly shareable recaps—all while prioritizing privacy and user control.
 
 ## Key Features
 
@@ -57,14 +57,14 @@ Shareable meme-style weekly summaries highlighting your activity across all conn
 
 ## Privacy & Data
 
-Zyntra is designed with user privacy as a priority. The app provides:
+Sagey is designed with user privacy as a priority. The app provides:
 - Clear controls for data source connections
 - Transparency in how data is used
 - Options to limit or delete collected information
 
 ## Development Status
 
-This repository contains the front-end code for Zyntra, currently in active development.
+This repository contains the front-end code for Sagey, currently in active development.
 
 ## Contributing
 

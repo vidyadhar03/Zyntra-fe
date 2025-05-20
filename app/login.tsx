@@ -31,7 +31,7 @@ export default function LoginScreen() {
       
       <ThemedView style={styles.contentContainer}>
         <ThemedText style={styles.title}>
-          Zyntra
+          Sagey
         </ThemedText>
         
         <ThemedText style={styles.tagline}>
